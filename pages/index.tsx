@@ -81,7 +81,7 @@ export default function Home() {
                 <Swiper
                     modules={[Pagination]}
                     spaceBetween={20}
-                    pagination={{ enabled: true, clickable: true, el: `.swiper-pagination.test2` }}
+                    pagination={{ el: `.swiper-pagination.test2` }}
                     slidesPerView={'auto'}
                     freeMode={true}
                     onSlideChange={() => console.log('slide change2')}
